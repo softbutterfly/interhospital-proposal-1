@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="static/css/animate.css">
     <link rel="stylesheet" href="static/css/custom.css">
     <script src="static/js/vendor/jquery.js"></script>
+    <script src="static/js/vendor/foundation.js"></script>
     <script src="static/js/owl.carousel.js"></script>
     <style>
     #owl-item div img {
@@ -19,9 +20,10 @@
 </head>
 
 <body>
-    <div class="row">
-        <ul class="menu align-right">
-            <li><a href="#" class="button">Default Button</a></li>
+    
+     <div class="row ">
+        <ul class="menu align-right color-primary-text">
+            <li><a href="#" class="button color-primary color-white">Default Button</a></li>
             <li><a href=""><i class="fi-heart "></i></a></li>
             <li><a href=""><i class="fi-social-facebook"></a></i>
             </li>
@@ -29,13 +31,24 @@
             <li><a href=""><i class="fi-social-google-plus"></i></a></li>
             <li><a href=""><i class="fi-social-pinterest"></i></a></li>
         </ul>
-        <ul class="menu ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Elements</a></li>
-            <li><a href="#">Product</a></li>
-        </ul>
+        
+        
     </div>
+    <div class="row color-primary" style="max-width:none;">
+        <div class="large-12 columns padd-no-lef-rigt" data-sticky-container>
+            <nav class="columns sticky color-primary padd-no-lef-rigt" data-sticky data-margin-top="0"  data-anchor="exampleId" data-sticky-on="large"> 
+                <ul class="menu color-white">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Elements</a></li>
+                    <li><a href="#">Product</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    
+
     <div class="owl-carousel" id="carousel1">
         <div> <img src="static/img/galeria/1068724.jpeg" alt=""> </div>
         <div> <img src="static/img/dragon-img.jpg" alt=""> </div>
@@ -231,7 +244,7 @@
     <div class="row text-center" style="background:#222;opacity: 0.7;background-image: url('static/img/footer_background/mt_medplus_footer_transparent_bg.png'); max-width: none; ">
         <h1>Medical</h1>
         <div>
-            <ul class="menu" style="width: 310px; margin: auto; padding-top: 30px;padding-bottom: 60px; font-size: 32px;">
+            <ul class="menu "  style="width: 310px; margin: auto; padding-top: 30px;padding-bottom: 60px; font-size: 32px;">
                 <li><a href=""><i class="fi-heart white-color"></i></a></li>
                 <li><a href=""><i class="fi-social-facebook white-color"></a></i>
                 </li>
@@ -246,6 +259,7 @@
     </div>
 </body>
 <script>
+
 $(document).ready(function() {
     $('#carousel1').owlCarousel({
         autoHeight: false,
@@ -271,7 +285,8 @@ $(document).ready(function() {
 
 
 });
+$(document).foundation();
 </script>
-<script src="static/js/vendor/foundation.js"></script>
+
 
 </html>

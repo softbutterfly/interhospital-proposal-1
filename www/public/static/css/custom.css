@@ -32,3 +32,26 @@
 	padding-left: 56px;
 	position: relative;
 }
+
+.color-primary {
+	background: #36c0d1;
+}
+.color-primary-text li a:not(.button) {
+	color: #36c0d1;
+}
+
+
+
+.padd-no-lef-rigt {
+	padding-left: 0 !important;
+	padding-right: 0 !important; 
+
+}
+
+.color-white{
+	color: #fff;
+}
+
+.color-white li a {
+	color: #fff;
+}
