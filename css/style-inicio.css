@@ -1,0 +1,14 @@
+.slider{
+    height: 98vh !important;
+    margin-top: -64px;
+}
+
+.slides{
+    height:98vh !important;
+    opacity: 0.8;
+}
+.indicators{
+    display: none;
+}
+
+
