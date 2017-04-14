@@ -5,10 +5,48 @@
 
 .slides{
     height:98vh !important;
-    opacity: 0.8;
+
 }
 .indicators{
     display: none;
 }
 
 
+.banner{
+    width: 100vw;
+    height: 90vh;
+    
+}
+
+.banner.img1{
+    background: url(https://image.desiringgod.org/your-hospital-visit-is-coming-drd9pkdf-en/landscape/large_your-hospital-visit-is-coming-drd9pkdf.jpg?1460487705);
+
+}
+
+.produc-title{
+    font-size: 1rem;
+}
+
+.produc-price{
+    font-size: 0.8rem;
+}
+
+.card-custom{
+    border: none !important;
+
+}
+
+.card-custom:hover:first-child {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.btn-custom:hover {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.pagination li.active {
+    background: #616161 !important; 
+}

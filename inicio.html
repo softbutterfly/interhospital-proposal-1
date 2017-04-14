@@ -6,17 +6,24 @@
 	<link rel="stylesheet" href="css/materialize.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/style-inicio.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/gallery-materialize.min.opt.css">
 	<script src="js/jquery-2.js"></script>
 	<script src="js/materialize.js"></script>
+	<script src="js/gallery.min.demo.js"></script>
 
 </head>
 <body>
 	<header  class="navbar-fixed">
 		
-		  <nav class="transparent z-depth-0">
+		  <nav class=" z-depth-0 menu">
 		    <div class="nav-wrapper ">
 		      <div class="container">
-		      	<a href="" class="right ">hola</a>
+		      	<a href="" class="right " style="padding-left:25px"><i class="large material-icons">perm_identity</i></a>
+				<a href="" class="right " style="padding-left:25px"><i class="large material-icons">shopping_cart</i></a>
+		      	<a href="" class="right " style="padding-left:25px"><i class="large material-icons">search</i></a>
+		      	
+				
 		      	<ul id="nav-mobile " class="left hide-on-med-and-down">
 			      	<li><img src="img/logo/interhospital-logo256x256.png" style="height:64px"alt=""></li>
 			        <li><a  class="" href="sass.html" >Sass</a></li>
@@ -29,178 +36,632 @@
 	</header>
 
 	<!--slider -->
-        	 <div class="slider" style="z-index:-1;">
+        	 <div class="slider">
 			    <ul class="slides" style="height:90vh!important;">
 			      <li>
-			        <img src="http://static.wixstatic.com/media/db3bb3_ed110f231c6d44cba2cd3b3f0cdfad06.jpg_srz_1198_796_85_22_0.50_1.20_0.00_jpg_srz"> <!-- random image -->
+			        <img src="img/slider/img1.jpg"> <!-- random image -->
 			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
+			          <div>
+			          	<h1 class="black-text">This is our big Tagline!</h1>
+			          	<h5 class="light grey-text text-darken-2">Here's our small slogan.</h5>
+			          	<a class="waves-effect waves-light btn grey darken-1 btn-custom z-depth-0" style="margin-top: 10%">Show Now</a>		         
+			          </div>
+			        </div>			        
 			      </li>
 			      <li>
-			        <img src="http://nebula.wsimg.com/9b8122431dcea37d799c26133e110533?AccessKeyId=63DE3430F428B5F90B29&disposition=0&alloworigin=1"> <!-- random image -->
-			        <div class="caption left-align">
-			          <h3>Left Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			      </li>
-			      <li>
-			        <img src="http://www.santal-ltda.cl/Sabanas%20de%20hospital.jpg"> <!-- random image -->
-			        <div class="caption right-align">
-			          <h3>Right Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-			        </div>
-			      </li>
-			      <li>
-			        <img src="http://www.hsll.es/uploaded_files/Photo_31_20110118192628.jpg"> <!-- random image -->
+			        <img src="img/slider/img2.jpg"> <!-- random image -->
 			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			          <h1 class="black-text">Left Aligned Caption</h1>
+			          <h5 class="light grey-text text-darken-2">Here's our small slogan.</h5>
+			          <a class="waves-effect waves-light btn grey darken-1 btn-custom z-depth-0" style="margin-top: 10%">Show Now</a>
+			        </div>			        
+			      </li>
+			      <li>
+			        <img src="img/slider/img3.jpg"> <!-- random image -->
+			        <div class="caption center-align">
+			          <h1 class="black-text">Right Aligned Caption</h1>
+			          <h5 class="light grey-text text-darken-2">Here's our small slogan.</h5>
+			          <a class="waves-effect waves-light btn grey darken-1 btn-custom z-depth-0" style="margin-top: 10%">Show Now</a>
+			        </div>			        
+			      </li>
+			      <li>
+			        <img src="img/slider/img4.jpg"> <!-- random image -->
+			        <div class="caption center-align">
+			          <h1 class="black-text">This is our big Tagline!</h1>
+			          <h5 class="light grey-text text-darken-2">Here's our small slogan.</h5>
+			          <a class="waves-effect waves-light btn grey darken-1 btn-custom z-depth-0" style="margin-top: 10%">Show Now</a>
 			        </div>
 			      </li>
 			    </ul>
 			  </div>
 			  <!-- end slider-->
 	<!--start card-->
-	<section >
-		<div class="row" >
-				<div class="col s12">
-					<div class="center-align" style="margin-top:5%">
-						<h3>Brand-Centered Buying</h3>
-					</div>
-				</div>
-		</div>
-		<div class="container">
-			<div class="row">
-			<div class="col s4">
-				<div class="row">
-			        <div class="col s12">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="http://materializecss.com/images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			</div>
-			<div class="col s4">
-				<div class="row">
-			        <div class="col s12">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="http://materializecss.com/images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			</div>
-			<div class="col s4">
-				<div class="row">
-			        <div class="col s12">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="http://materializecss.com/images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			</div>
-		</div>
 
-		<div class="row">
-			<div class="col s4">
-				<div class="row">
-			        <div class="col s12">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="http://materializecss.com/images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			</div>
-			<div class="col s4">
-				<div class="row">
-			        <div class="col s12">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="http://materializecss.com/images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			</div>
-			<div class="col s4">
-				<div class="row">
-			        <div class="col s12">
-			          <div class="card">
-			            <div class="card-image">
-			              <img src="http://materializecss.com/images/sample-1.jpg">
-			              <span class="card-title">Card Title</span>
-			            </div>
-			            <div class="card-content">
-			              <p>I am a very simple card. I am good at containing small bits of information.
-			              I am convenient because I require little markup to use effectively.</p>
-			            </div>
-			            <div class="card-action">
-			              <a href="#">This is a link</a>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			</div>
-		</div>
-		
-		</div>
-	</section>
+	    <div class="container" id="startchange">
+        <ol class="breadcrumbs">
+            <li><a href="">producto</a></li>
+            <li><a href="">accesorio</a></li>
+            <li class="current"><a href="">lll</a></li>
+        </ol>
+    </div>
+    <!-- end breadcrumbs-->
+    <form class="filter" method="get" action="/suche/filter">
+        <div class="section white">
+            <div class="container">
+                <div class="row">
+                    <div class="col m3 ">
+                        <h1 class="interhospital-h1">
+							Interhospital <span>(69)</span>
+						</h1>
+                        <div class="filter-elements">
+                            <a class="btn mar-bot waves-effect waves-light green" href="">Promocion 1</a>
+                            <a class="btn mar-bot waves-effect waves-light blue" href="">Promo</a>
+                            <a class="btn mar-bot waves-effect waves-light orange" href="">Promocion 3</a>
+                            <div class="filter-container">
+                                <strong>Filtern mach</strong>
+                                <imput type="hidden" value="1" name="filter"></imput>
+                                <imput type="hidden" value name="term"></imput>
+                                <imput type="hidden" value name="used"></imput>
+                                <ul class="collapsible" data-collapsible="expandable">
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <i class="material-icons">polymer</i> precios
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <ul>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" name="allergic" id="allergic" value="1" checked="\" checked "\">
+                                                    <label for="allergic"> carros</label>
+                                                </li>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" name="pet" id="pet" value="1">
+                                                    <label for="pet">mascota</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <i class="material-icons">polymer</i> precios
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <ul>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" name="allergic" id="allergic" value="1" checked="\" checked "\">
+                                                    <label for="allergic"> carros</label>
+                                                </li>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" name="pet" id="pet" value="1">
+                                                    <label for="pet">mascota</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <i class="material-icons">polymer</i> precios
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <ul>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" type="checkbox" name="manufacturer[]" id="Dir Devil" value="4">
+                                                    <label for="Dir Devil"> Dir Devil(0)</label>
+                                                </li>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" type="checkbox" name="manufacturer[]" id="Dir Devil" value="4">
+                                                    <label for="Dir Devil"> Dir Devil(0)</label>
+                                                </li>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" type="checkbox" name="manufacturer[]" id="Dir Devil" value="4">
+                                                    <label for="Dir Devil"> Dir Devil(0)</label>
+                                                </li>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" type="checkbox" name="manufacturer[]" id="Dir Devil" value="4">
+                                                    <label for="Dir Devil"> Dir Devil(0)</label>
+                                                </li>
+                                                <li>
+                                                    <input onclick="this.form.submit()" type="checkbox" type="checkbox" name="manufacturer[]" id="Dir Devil" value="4">
+                                                    <label for="Dir Devil"> Dir Devil(0)</label>
+                                                </li>
+                                                <li></li>
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="collapsible" data-collapsible="accordion">
+                                    <li>
+                                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m9 " style="padding: 0;margin-top: 2.2rem;">
+                        <!--<div class="row">
+                            <div class="col m5 s12 modelsearch">
+                                <div class="input-field col s12">
+                                    
+                                </div>
+                            </div>
+                            <div class="col m4 offset-m3 s12">
+                                <div class="select-wrapper right">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="" style="list-style: none;">
+                        <!--insert Galerry Materialize-->
+                        	    <div id="portfolio" class="cx gray" style="padding:0 0;">
+      <div class="db">
+        <div class="b e">
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/geometric-aquamarine.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Aquamarine</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Aquamarine</h3>
+                  <span class="gj">$29.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
 
-	<!--end card -->
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="img/geometric-sun.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Sun</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Sun</h3>
+                  <span class="gj">$9.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce bigbang">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/bigbang1.png" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Big Bang 1</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Big Bang 1</h3>
+                  <span class="gj">$23.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="img/geometric-maze.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Maze</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Maze</h3>
+                  <span class="gj">$11.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="img/geometric-ice.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Ice</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Ice</h3>
+                  <span class="gj">$14.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="img/geometric-cave.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Cave</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Cave</h3>
+                  <span class="gj">$4.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img src="img/geometric-grapefruit.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Grapefruit</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Grapefruit</h3>
+                  <span class="gj">$14.99</span>
+                </div>
+
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce bigbang">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/bigbang2.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Big Bang 2</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Big Bang 2</h3>
+                  <span class="gj">$40.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+          <div class="d hx hf gu gallery-item gallery-expand ce bigbang">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/bigbang3.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Big Bang 3</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Big Bang 3</h3>
+                  <span class="gj">$18.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d hx hf gu gallery-item gallery-expand ce sacred">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/sacredgeometry1.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Circle</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Circle</h3>
+                  <span class="gj">$10.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d hx hf gu gallery-item gallery-expand ce sacred">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/sacredgeometry2.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Triangle</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Triangle</h3>
+                  <span class="gj">$10.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="d hx hf gu gallery-item gallery-expand ce sacred">
+            <div class="gallery-curve-wrapper">
+              <a class="gallery-cover gray">
+                <img class="responsive-img" src="img/sacredgeometry3.jpg" alt="placeholder" crossOrigin="anonymous">
+              </a>
+              <div class="gallery-header">
+                <span>Hexagon</span>
+              </div>
+              <div class="gallery-body">
+                <div class="title-wrapper">
+                  <h3>Hexagon</h3>
+                  <span class="gj">$10.99</span>
+                </div>
+                <p class="fi">
+Literally venmo before they sold out, DIY heirloom forage polaroid offal yr pop-up selfies health goth. Typewriter scenester hammock truffaut meditation, squid before they sold out polaroid portland tousled taxidermy vice. Listicle butcher thundercats, taxidermy pitchfork next level roof party crucifix narwhal kinfolk you probably haven't heard of them portland small batch.</p>
+                <p class="fi">
+Ea salvia adipisicing vegan man bun. Flexitarian cupidatat skateboard flannel. Drinking vinegar marfa you probably haven't heard of them consequat post-ironic, shabby chic williamsburg raclette vaporware readymade selfies brunch. Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon, proident elit raclette chambray consequat edison bulb four loko accusamus. Semiotics godard eiusmod, ex esse air plant quinoa vaporware selfies keytar. Actually yuccie ennui flannel single-origin coffee, williamsburg cardigan banjo forage pug distillery tumblr hexagon vinyl occaecat.</p>
+
+                <div class="carousel-wrapper">
+                  <div class="t carousel">
+                    <a class="carousel-item" href="demo.html#one!"><img src="img/geometric-sun.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#two!"><img src="img/geometric-maze.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#three!"><img src="img/geometric-ice.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#four!"><img src="img/geometric-cave.jpg" crossOrigin="anonymous"></a>
+                    <a class="carousel-item" href="demo.html#five!"><img src="img/geometric-grapefruit.jpg" crossOrigin="anonymous"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-action">
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+		  <ul class="pagination center-align z-depth-1">
+		    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+		    <li class="active"><a href="#!">1</a></li>
+		    <li class="waves-effect"><a href="#!">2</a></li>
+		    <li class="waves-effect"><a href="#!">3</a></li>
+		    <li class="waves-effect"><a href="#!">4</a></li>
+		    <li class="waves-effect"><a href="#!">5</a></li>
+		    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+		  </ul>
+
+    </div>
+    <!--end insert Gallery materialize-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+	
+
+	<footer class="page-footer grey">
+          <div class="container" style="height:60vh">
+           	<div class="center-align white-text">
+           		 <h1>Merchandiser Studio</h1>
+					<p>Meditation forage flexitarian organic hoodie actually. Lo-fi flannel godard gochujang, austin keffiyeh listicle mumblecore aesthetic chillwave four dollar toast try hard wayfarers. Occupy flannel listicle, selvage seitan heirloom yuccie wayfarers typewriter. Mumblecore direct trade four dollar toast. Lomo literally listicle food truck twee. Post-ironic meditation chillwave marfa echo park kickstarter austin, paleo cliche. Pop-up swag chicharrones, fanny pack try-hard cliche trust fund brunch.</p>
+           	</div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
 	
 </body>
 <script>
 	$(document).ready(function(){
       $('.slider').slider();
+
+     var scroll_start = 0;
+   	var startchange = $('.menu');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.menu').css('background-color', 'rgba(34,34,34,0.9)');
+       } else {
+          $('.menu').css('background-color', 'transparent');
+       }
+   });
     });
 </script>
 </html>
